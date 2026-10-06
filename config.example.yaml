@@ -1,0 +1,94 @@
+﻿# Copy to config.yaml (gitignored) and edit. Secrets go in .env, never here.
+
+mode: paper                    # paper | live  (live also needs LIVE_TRADING_ACK=yes in .env)
+broker: webull                 # v1 is Webull-only; adapter interface allows more later
+broker_account_type: CASH      # CASH = no PDT rule (required for 0DTE under $25k); or MARGIN
+timezone: America/Los_Angeles
+
+entry:
+  price_band_max: 1.10         # skip if ask > alert_price * this; below alert is always fine
+  staleness_seconds: 60
+  max_spread_pct_of_mid: 0.10
+  priceless_alerts: enter_at_ask   # enter_at_ask | skip
+  max_dte: 1                   # 0dte default; dated alerts allowed up to this many days out
+  assume_today_if_no_expiry: true  # chain-existence check is the safety net
+  contracts_per_play: 2
+  single_contract_fallback: true   # if buying power < 2 contracts, buy 1 as a tp_only play
+  max_entries_per_day: 3
+  skip_reentries: true         # same-day re-alerts / "re entry" calls are logged, not traded
+  min_minutes_before_flatten: 45
+
+exits:
+  initial_stop_pct: 0.25
+  disaster_stop_pct: 0.50
+  trim_trigger_pct: 0.25
+  trail_pct: 0.15
+  single_contract_take_profit_pct: 0.25
+  flatten_time_local: "12:00"
+  exit_cross_pct: 0.05
+  reprice_seconds: 2
+
+parser:                        # global — applies to every alerter
+  ticker_whitelist: [SPY, IWM, QQQ, TSLA, AAPL, MSFT, AMZN, NVDA, GOOGL, GOOG, META, SCHW,
+                     AVGO, NOW, NDX, SPX]
+  fuzzy_max_edit_distance: 2
+  # Word-like tickers: only ALL-CAPS counts, and fuzzy matching skips them
+  # ("sell now" / "index" must never become a ticker).
+  uppercase_only_tickers: [NOW, NDX]
+
+# ---- Alerter profiles: everything specific to one alerter lives here. ----
+# Adding a new alerter = add a block like this + drop their history in
+# tests/fixtures/<name>/. No code changes.
+alerters:
+  bravo:
+    enabled: true
+    channel_hint: "bravo-alert"  # substring vs toast title; singular matches bravo-alert(s), emojis fine
+    alert_prefix: "@alert"       # helpful signal; entries are detected by content, not prefix
+    fixtures: tests/fixtures/bravo/
+    ticker_aliases:
+      tesla: TSLA
+      telsa: TSLA
+      apple: AAPL
+      aaple: AAPL
+      appl: AAPL
+      amazon: AMZN
+      nvidia: NVDA
+      nvdia: NVDA
+      google: GOOGL
+      microsoft: MSFT
+    known_tags: [risky, very risky, super risky, gamble, lotto, fomo, scalp,
+                 go light, go in with profits, not counting, not count,
+                 not gonna count, re entry, last play]
+    trade_all_tags: true
+    # The alerter's own accounts. An alerter who renames mid-history keeps
+    # both handles here; lookalike/personal accounts are left out on purpose,
+    # so their calls never enter the mined record.
+    author_hints: ["Bravo Alerts", "bravo_old"]
+
+  alpha:
+    enabled: true
+    channel_hint: "alpha-alert"  # matches a #alpha-alerts channel, emojis fine
+    alert_prefix: "@alert"       # often dropped mid-message; entries detected by content
+    fixtures: tests/fixtures/alpha/
+    ticker_aliases: {}
+    known_tags: [lotto, risky, high risk, high risky, very risky, scalp,
+                 swing, swings, gamble, small size, size small, size slight,
+                 go light, rentry, re entry, hedge, earnings play, dca]
+    trade_all_tags: true
+    author_hints: ["Alpha Alerts"]
+
+quotes:
+  poll_seconds: 1.0
+  broker_rate_limit_per_min: 60
+  underlying_early_warning: true
+
+watchdog:
+  heartbeat_seconds: 30
+
+discord_control:
+  guild_id: 0
+  channel_id: 0
+  authorized_user_id: 0        # only this user's kill/status/pause/resume commands count
+
+audit:
+  db_path: data/bot.db

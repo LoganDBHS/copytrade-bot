@@ -1,0 +1,31 @@
+# synthetic copy-paste sample — see _corpus.py
+@alert
+googl 176.5 call 0dte go in with profits 0.80
+Bravo Alerts
+APP
+ — 5/24/27, 07:10 AM
+@alert qqq 530 call 0dte gamble
+Bravo Alerts — 5/24/27, 07:48 AM
+@alert tsla 408 put 0dte risky very risky
+Bravo Alerts
+APP
+ — 08:21 AM
+@alert tsla 406 put 0dte risky
+Bravo Alerts
+APP
+ — 5/24/27, 08:35 AM
+100% TP WHENEVER
+126%
+tsla 406 put 140%
+Bravo Alerts — 5/24/27, 09:02 AM
+@alert spy 624 put 0dte risky super risky
+Bravo Alerts
+APP
+ — 09:40 AM
+@alert tsla 418 call 0dte riksy 0.69
+Bravo Alerts
+APP
+ — 5/24/27, 10:15 AM
+@alert nvda 142.5 call 0dte not gonna count risky
+Bravo Alerts — 5/24/27, 11:30 AM
+@alert SCHW 92 call 5/28 0.32

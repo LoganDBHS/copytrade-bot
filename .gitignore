@@ -1,0 +1,19 @@
+# Secrets and local config — never commit
+config.yaml
+.env
+# Webull SDK login/2FA token cache (token.txt) — no trailing comments here,
+# gitignore treats them as part of the pattern
+conf/
+
+# Runtime data (audit db, logs)
+data/
+*.log
+webull_*.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/

@@ -1,0 +1,9 @@
+# Generated fixtures are byte-compared by tests/test_corpus_shape.py
+# (test_generator_is_reproducible), so they must round-trip as LF on every
+# platform — a CRLF checkout on Windows would make regeneration look dirty.
+tests/fixtures/** text eol=lf
+
+# Windows launchers must keep CRLF or the shell mis-parses them.
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.ps1 text eol=crlf

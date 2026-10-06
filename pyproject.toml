@@ -1,0 +1,41 @@
+[project]
+name = "copytrade-bot"
+version = "0.1.0"
+description = "Discord alert copy-trading bot for 0DTE options (paper-first, fail-closed)"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+    "tzdata>=2024.1",
+    "python-dotenv>=1.0",
+    "discord.py>=2.4",
+    "winsdk>=1.0.0b10",
+    # Current official SDK (module `webull`), Python 3.8–3.14. NOT the
+    # deprecated `webull-python-sdk-*` family, which has no US option orders.
+    "webull-openapi-python-sdk>=2.0",
+]
+
+[project.optional-dependencies]
+# Installed into a SEPARATE venv (.venv-dash) — streamlit's protobuf>=5.26
+# conflicts with the webull SDK's protobuf<5. See tools/dashboard.bat.
+dashboard = [
+    "streamlit>=1.50",
+    "pandas>=2.0",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]

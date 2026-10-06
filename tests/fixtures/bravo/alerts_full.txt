@@ -1,0 +1,113 @@
+[4/1/2027 07:00 AM] bravo_old#4420: @alert spy call 612 0dte risky
+---
+[4/1/2027 09:30 AM] bravo_old#4420: spy 612 call up 190% tp whenever
+---
+[4/2/2027 06:37 AM] bravo_old#4420: @alert spy 616 call 0dte risky quick scalp probs
+---
+[4/5/2027 07:07 AM] bravo_old#4420: @alert 528 call qqq 0dte risky
+---
+[Tuesday, April 06, 2027 06:50 AM] bravo_old#4420: @alert telsa 410 put 0dte gamble
+---
+[4/7/2027 06:44 AM] Bravo Alerts#1561: @alert aaple 246 call 0dte riksy
+---
+[4/8/2027 06:41 AM] Bravo Alerts#1561: @alert nvdia 141 call 0dte go light
+---
+[04\08\2027 07:20 AM] Bravo Alerts#1561: @alert nvidia 141 call 0dte
+---
+[4/9/2027 06:36 AM] Bravo Alerts#1561: @alert tesla 415 call 0dte very risky
+---
+[4/9/2027 11:45 AM] Bravo Alerts#1561: tesla 415 call 126% TP WHENEVER
+---
+[4/12/2027 06:48 AM] Bravo Alerts#1561: @alert googl 176.5 call 0dte go in with profits 0.80
+---
+[4/13/2027 06:52 AM] Bravo Alerts#1561: @alert qqq 530 call 0dte gamble
+---
+[4/14/2027 06:39 AM] Bravo Alerts#1561: @alert tsla 408 put 0dte risky very risky
+---
+[Thursday, April 15, 2027 06:46 AM] Bravo Alerts#1561: @alert spy 620 put 0dte risky super risky
+---
+[4/16/2027 06:43 AM] Bravo Alerts#1561: @alert iwm 232 call 0dte not gonna count
+---
+[4/19/2027 06:40 AM] Bravo Alerts#1561: @alert msft 496 call 0dte lotto 0.45
+---
+[04\20\2027 06:55 AM] Bravo Alerts#1561: @alert amzn 230 call 0dte last play
+---
+[4/21/2027 06:38 AM] Bravo Alerts#1561: @alert avgo 324 call 0dte fomo
+---
+[4/22/2027 06:51 AM] Bravo Alerts#1561: @alert meta 700 put 0dte scalp
+---
+[4/23/2027 06:42 AM] Bravo Alerts#1561: @alert SCHW 92 call 4/30 0.32
+---
+[4/26/2027 06:49 AM] Bravo Alerts#1561: @alert spy 618 call 0dte or maybe the 620, deciding
+---
+[4/27/2027 06:44 AM] Bravo Alerts#1561: cons close to breakeven, if you want out now you can
+---
+[Tuesday, April 27, 2027 07:30 AM] Bravo Alerts#1561: @alert 25% bang, taking some off
+---
+[4/28/2027 06:47 AM] Bravo Alerts#1561: @alert spy 622 call 0dte 0.55 level 9/10 risk
+---
+[4/29/2027 06:53 AM] bravo_old#4420: @alert iwm 234 call 0dte
+---
+[04\30\2027 07:05 AM] MemberOne#7783: @alert spy 624 call 0dte lets go
+---
+[4/30/2027 07:25 AM] ServerAdmin#0001: welcome to the channel, read the pinned rules
+---
+[5/3/2027 06:50 AM] Bravo Alerts#1561: @alert tsla 404 put 0dte
+---
+[5/3/2027 11:05 AM] Bravo Alerts#1561: @alert 242 call aapl 0dte risky
+---
+[5/4/2027 06:50 AM] Bravo Alerts#1561: @alert nvda 139 call 0dte gamble 0.47
+---
+[5/4/2027 11:05 AM] Bravo Alerts#1561: @alert msft 496 call 0dte scalp
+---
+[Wednesday, May 05, 2027 06:50 AM] Bravo Alerts#1561: @alert 232 put amzn 0dte go light
+---
+[5/5/2027 11:05 AM] Bravo Alerts#1561: @alert meta 704 call 0dte very risky 0.65
+---
+[5/6/2027 06:50 AM] Bravo Alerts#1561: @alert googl 182 call 0dte lotto
+---
+[05\06\2027 11:05 AM] Bravo Alerts#1561: @alert 606 call spy 0dte
+---
+[5/7/2027 06:50 AM] Bravo Alerts#1561: @alert qqq 524 put 0dte risky 0.35
+---
+[5/7/2027 11:05 AM] Bravo Alerts#1561: @alert iwm 229 call 0dte gamble
+---
+[5/10/2027 06:50 AM] Bravo Alerts#1561: @alert 410 call tsla 0dte scalp
+---
+[5/10/2027 11:05 AM] Bravo Alerts#1561: @alert aapl 248 call 0dte go light 0.53
+---
+[5/11/2027 06:50 AM] Bravo Alerts#1561: @alert nvda 145 put 0dte very risky
+---
+[Tuesday, May 11, 2027 11:05 AM] Bravo Alerts#1561: @alert 502 call msft 0dte lotto
+---
+[5/12/2027 06:50 AM] Bravo Alerts#1561: @alert amzn 224 call 0dte 0.71
+---
+[5/12/2027 11:05 AM] Bravo Alerts#1561: @alert meta 696 call 0dte risky
+---
+[05\13\2027 06:50 AM] Bravo Alerts#1561: @alert 174 put googl 0dte gamble
+---
+[5/13/2027 11:05 AM] Bravo Alerts#1561: @alert spy 612 call 0dte scalp 0.41
+---
+[5/14/2027 06:50 AM] Bravo Alerts#1561: @alert qqq 530 call 0dte go light
+---
+[5/14/2027 11:05 AM] Bravo Alerts#1561: @alert 235 call iwm 0dte very risky
+---
+[5/17/2027 06:50 AM] Bravo Alerts#1561: @alert tsla 416 put 0dte lotto 0.59
+---
+[5/17/2027 11:05 AM] Bravo Alerts#1561: @alert aapl 240 call 0dte
+---
+[Tuesday, May 18, 2027 06:50 AM] Bravo Alerts#1561: @alert 137 call nvda 0dte risky
+---
+[5/18/2027 11:05 AM] Bravo Alerts#1561: @alert msft 494 call 0dte gamble 0.77
+---
+[5/19/2027 06:50 AM] Bravo Alerts#1561: @alert amzn 230 put 0dte scalp
+---
+[05\19\2027 11:05 AM] Bravo Alerts#1561: @alert 702 call meta 0dte go light
+---
+[5/20/2027 06:50 AM] Bravo Alerts#1561: @alert googl 180 call 0dte very risky 0.47
+---
+[5/20/2027 11:05 AM] Bravo Alerts#1561: @alert spy 618 call 0dte lotto
+---
+[5/21/2027 06:50 AM] Bravo Alerts#1561: @alert 522 put qqq 0dte
+---
+[5/21/2027 11:05 AM] Bravo Alerts#1561: @alert iwm 227 call 0dte risky 0.65

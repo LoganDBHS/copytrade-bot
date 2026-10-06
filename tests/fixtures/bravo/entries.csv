@@ -1,0 +1,50 @@
+datetime,ticker,strike,side,expiry,alert_price,tags,claimed_max_pct,raw
+2027-04-01 07:00:00,SPY,612.0,CALL,DTE0,,risky,190,@alert spy call 612 0dte risky
+2027-04-02 06:37:00,SPY,616.0,CALL,DTE0,,risky;scalp,,@alert spy 616 call 0dte risky quick scalp probs
+2027-04-05 07:07:00,QQQ,528.0,CALL,DTE0,,risky,,@alert 528 call qqq 0dte risky
+2027-04-06 06:50:00,TSLA,410.0,PUT,DTE0,,gamble,,@alert telsa 410 put 0dte gamble
+2027-04-07 06:44:00,AAPL,246.0,CALL,DTE0,,riksy,,@alert aaple 246 call 0dte riksy
+2027-04-08 06:41:00,NVDA,141.0,CALL,DTE0,,go light,,@alert nvdia 141 call 0dte go light
+2027-04-09 06:36:00,TSLA,415.0,CALL,DTE0,,risky;very risky,126,@alert tesla 415 call 0dte very risky
+2027-04-12 06:48:00,GOOGL,176.5,CALL,DTE0,0.8,go in with profits,,@alert googl 176.5 call 0dte go in with profits 0.80
+2027-04-13 06:52:00,QQQ,530.0,CALL,DTE0,,gamble,,@alert qqq 530 call 0dte gamble
+2027-04-14 06:39:00,TSLA,408.0,PUT,DTE0,,risky;very risky,,@alert tsla 408 put 0dte risky very risky
+2027-04-15 06:46:00,SPY,620.0,PUT,DTE0,,risky;super risky,,@alert spy 620 put 0dte risky super risky
+2027-04-16 06:43:00,IWM,232.0,CALL,DTE0,,not gonna count,,@alert iwm 232 call 0dte not gonna count
+2027-04-19 06:40:00,MSFT,496.0,CALL,DTE0,0.45,lotto,,@alert msft 496 call 0dte lotto 0.45
+2027-04-20 06:55:00,AMZN,230.0,CALL,DTE0,,last play,,@alert amzn 230 call 0dte last play
+2027-04-21 06:38:00,AVGO,324.0,CALL,DTE0,,fomo,,@alert avgo 324 call 0dte fomo
+2027-04-22 06:51:00,META,700.0,PUT,DTE0,,scalp,,@alert meta 700 put 0dte scalp
+2027-04-23 06:42:00,SCHW,92.0,CALL,DATE4/30,0.32,,,@alert SCHW 92 call 4/30 0.32
+2027-04-28 06:47:00,SPY,622.0,CALL,DTE0,0.55,,,@alert spy 622 call 0dte 0.55 level 9/10 risk
+2027-04-29 06:53:00,IWM,234.0,CALL,DTE0,,,,@alert iwm 234 call 0dte
+2027-05-03 06:50:00,TSLA,404.0,PUT,DTE0,,,,@alert tsla 404 put 0dte
+2027-05-03 11:05:00,AAPL,242.0,CALL,DTE0,,risky,,@alert 242 call aapl 0dte risky
+2027-05-04 06:50:00,NVDA,139.0,CALL,DTE0,0.47,gamble,,@alert nvda 139 call 0dte gamble 0.47
+2027-05-04 11:05:00,MSFT,496.0,CALL,DTE0,,scalp,,@alert msft 496 call 0dte scalp
+2027-05-05 06:50:00,AMZN,232.0,PUT,DTE0,,go light,,@alert 232 put amzn 0dte go light
+2027-05-05 11:05:00,META,704.0,CALL,DTE0,0.65,risky;very risky,,@alert meta 704 call 0dte very risky 0.65
+2027-05-06 06:50:00,GOOGL,182.0,CALL,DTE0,,lotto,,@alert googl 182 call 0dte lotto
+2027-05-06 11:05:00,SPY,606.0,CALL,DTE0,,,,@alert 606 call spy 0dte
+2027-05-07 06:50:00,QQQ,524.0,PUT,DTE0,0.35,risky,,@alert qqq 524 put 0dte risky 0.35
+2027-05-07 11:05:00,IWM,229.0,CALL,DTE0,,gamble,,@alert iwm 229 call 0dte gamble
+2027-05-10 06:50:00,TSLA,410.0,CALL,DTE0,,scalp,,@alert 410 call tsla 0dte scalp
+2027-05-10 11:05:00,AAPL,248.0,CALL,DTE0,0.53,go light,,@alert aapl 248 call 0dte go light 0.53
+2027-05-11 06:50:00,NVDA,145.0,PUT,DTE0,,risky;very risky,,@alert nvda 145 put 0dte very risky
+2027-05-11 11:05:00,MSFT,502.0,CALL,DTE0,,lotto,,@alert 502 call msft 0dte lotto
+2027-05-12 06:50:00,AMZN,224.0,CALL,DTE0,0.71,,,@alert amzn 224 call 0dte 0.71
+2027-05-12 11:05:00,META,696.0,CALL,DTE0,,risky,,@alert meta 696 call 0dte risky
+2027-05-13 06:50:00,GOOGL,174.0,PUT,DTE0,,gamble,,@alert 174 put googl 0dte gamble
+2027-05-13 11:05:00,SPY,612.0,CALL,DTE0,0.41,scalp,,@alert spy 612 call 0dte scalp 0.41
+2027-05-14 06:50:00,QQQ,530.0,CALL,DTE0,,go light,,@alert qqq 530 call 0dte go light
+2027-05-14 11:05:00,IWM,235.0,CALL,DTE0,,risky;very risky,,@alert 235 call iwm 0dte very risky
+2027-05-17 06:50:00,TSLA,416.0,PUT,DTE0,0.59,lotto,,@alert tsla 416 put 0dte lotto 0.59
+2027-05-17 11:05:00,AAPL,240.0,CALL,DTE0,,,,@alert aapl 240 call 0dte
+2027-05-18 06:50:00,NVDA,137.0,CALL,DTE0,,risky,,@alert 137 call nvda 0dte risky
+2027-05-18 11:05:00,MSFT,494.0,CALL,DTE0,0.77,gamble,,@alert msft 494 call 0dte gamble 0.77
+2027-05-19 06:50:00,AMZN,230.0,PUT,DTE0,,scalp,,@alert amzn 230 put 0dte scalp
+2027-05-19 11:05:00,META,702.0,CALL,DTE0,,go light,,@alert 702 call meta 0dte go light
+2027-05-20 06:50:00,GOOGL,180.0,CALL,DTE0,0.47,risky;very risky,,@alert googl 180 call 0dte very risky 0.47
+2027-05-20 11:05:00,SPY,618.0,CALL,DTE0,,lotto,,@alert spy 618 call 0dte lotto
+2027-05-21 06:50:00,QQQ,522.0,PUT,DTE0,,,,@alert 522 put qqq 0dte
+2027-05-21 11:05:00,IWM,227.0,CALL,DTE0,0.65,risky,,@alert iwm 227 call 0dte risky 0.65
